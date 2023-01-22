@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.divideFirstGlance {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+}
+
+.two-three {
+  grid-template-columns: 2fr 3fr;
+}
+
+.non-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.col1-5{
+  grid-template-columns: 1fr 5fr;
+}
